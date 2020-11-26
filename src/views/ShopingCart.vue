@@ -213,7 +213,7 @@ export default {
       };
       axios
         .post(
-          "http://cepatikhlasberkah.id/api/checkout",
+          "https://cepatikhlasberkah.id/api/checkout",
           checkoutData
         )
         .then(() => this.$router.push("success"))

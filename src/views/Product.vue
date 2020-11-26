@@ -136,7 +136,7 @@ export default {
       }
     }
     axios
-      .get("http://cepatikhlasberkah.id/api/products", {
+      .get("https://cepatikhlasberkah.id/api/products", {
         params: {
           id: this.$route.params.id
         }
