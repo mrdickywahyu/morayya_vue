@@ -115,15 +115,15 @@
                     </li>
                     <li class="subtotal mt-3">
                       Subtotal
-                      <span>Rp{{ totalHarga }}.00</span>
+                      <span>Rp{{ totalHarga }}</span>
                     </li>
                     <li class="subtotal mt-3">
                       Pajak
-                      <span>10% ${{ ditambahPajak }}.00</span>
+                      <span>10% ${{ ditambahPajak }}</span>
                     </li>
                     <li class="subtotal mt-3">
                       Total Biaya
-                      <span>Rp{{ totalBiaya }}.00</span>
+                      <span>Rp{{ totalBiaya }}</span>
                     </li>
                     <li class="subtotal mt-3">
                      <span>Metode Pembayaran</span>
