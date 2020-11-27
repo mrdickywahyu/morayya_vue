@@ -4203,7 +4203,7 @@ ol {
         color: #fff;
     }
     .inner-header .nav-right li.cart-icon .cart-hover {
-        left: -50px;
+        left: 0px;
     }
     .product-show-option p {
         text-align: left;

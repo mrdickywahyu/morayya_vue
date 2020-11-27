@@ -4,7 +4,7 @@
     <section class="women-banner spad">
         <div class="container-fluid">
             <div class="row">
-               <div class="col-lg-4 mt-5 centered" v-if="products.length > 0">
+               <div class="col-lg-4 mt-5 centered" v-if=" products && products.length > 0">
           <carousel class="product-slider" :items="1" :dots="false" :autoplay="true" :nav="false" >
             <div class="product-item" v-for="itemProduct in products" v-bind:key="itemProduct.id">
               <div class="pi-pic">
